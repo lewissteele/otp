@@ -23,7 +23,7 @@ Deno.test(async function usesHomeIfXDGIsNotSet() {
   db.close();
 
   restore(id);
-  Deno.remove("tmp", { recursive: true });
+  await Deno.remove("tmp", { recursive: true });
 });
 
 Deno.test(function throwsIfEnvIsNotSet() {
