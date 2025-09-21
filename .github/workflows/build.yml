@@ -17,4 +17,4 @@ jobs:
       - run: deno install
       - run: deno fmt --check
       - run: deno lint
-      - run: deno test -A --unstable-kv
+      - run: deno test -E -R -W --unstable-kv
