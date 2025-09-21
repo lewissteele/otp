@@ -4,6 +4,7 @@
     "@std/cli": "jsr:@std/cli@^1.0.22",
     "@std/crypto": "jsr:@std/crypto@^1.0.5",
     "@std/fs": "jsr:@std/fs@^1.0.19",
-    "@std/path": "jsr:@std/path@^1.1.2"
+    "@std/path": "jsr:@std/path@^1.1.2",
+    "@std/testing": "jsr:@std/testing@^1.0.15"
   }
 }
